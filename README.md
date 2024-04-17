@@ -3,6 +3,7 @@ O jogo que nós ultilizámos é um jogo em monogame, no qual, numa area deserta,
 
 # Grupo
 Maria Deolinda Monteiro da Costa nº22530
+
 Margarida Coelho Coimbra do Amaral nº29849
 
 # Imagens do Jogo
@@ -12,17 +13,28 @@ Margarida Coelho Coimbra do Amaral nº29849
 
 # Como jogar
 **Controlos de Movimento do Tanque**
+
 W - andar para a frente
+
 A - andar para a esquerda
+
 S - andar para trás
+
 D - andar para a direita
+
 LeftShift - acelerar
 
+
 **Controlos de Mira**
+
 T - apontar para cima
+
 F - apontar para a esquerda
+
 G - apontar para trás
+
 J - apontar para a direita
+
 Space - disparar
 
 Recursos

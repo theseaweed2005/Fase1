@@ -41,12 +41,6 @@ Margarida Coelho Coimbra do Amaral nº29849
 
 
 
-Recursos
-Liste os principais recursos do jogo, como modos de jogo, características únicas, etc.
-Se houver algum recurso especial, como suporte a mods, multiplayer online, etc., detalhe-os aqui.
-Bugs Conhecidos / Problemas Conhecidos
-Liste quaisquer bugs ou problemas conhecidos que os jogadores possam encontrar ao jogar o jogo. Se possível, forneça informações sobre como os jogadores podem relatar bugs.
-
 
 # Estrutura do Código
 
@@ -70,20 +64,14 @@ Liste quaisquer bugs ou problemas conhecidos que os jogadores possam encontrar a
 
 **Pasta "Contents":** Contém arquivos de som e de imagem implementados no jogo.
 
-**Pasta "Effects":** 
+**Pasta "Effects":** Contém um conjunto de arquivos que implementam os varios efeitos do jogo como poeira, chuva e os respetivos efeitos sonoros
 
 **Pasta "Managers":** 
 
-Arquivo "Game1.cs": 
+**Arquivo "Game1.cs":**
 
-Arquivo "Program.cs": 
+**Arquivo "Program.cs":**
 
 
-Créditos
-Agradeça a todos os envolvidos no desenvolvimento do jogo. Isso pode incluir desenvolvedores, artistas, músicos e qualquer outra pessoa que tenha contribuído para o projeto.
-
-Licença
-Declare a licença do jogo. Isso pode ser importante para os jogadores que desejam modificar ou distribuir o jogo.
-
-Contato
-Forneça informações de contato para os jogadores entrarem em contato caso tenham perguntas, sugestões ou relatem problemas.
+# Créditos
+Jogo desenvolvido por tal e tal

@@ -54,7 +54,6 @@ Liste quaisquer bugs ou problemas conhecidos que os jogadores possam encontrar a
 
 
 # Estrutura do Código
-O código-fonte do jogo é estruturado em várias partes principais para facilitar a compreensão e manutenção:
 
 **Pasta "Camara":** Contém um conjunto de arquivos que implementam diferentes tipos de cameras para serem usadas no jogo MonoGame. 
  * ClsCamera.cs: É uma classe abstrata base que fornece funcionalidades comuns a todas as câmeras, como manipulação de mouse e métodos de atualização.
@@ -64,23 +63,17 @@ O código-fonte do jogo é estruturado em várias partes principais para facilit
  * ClsThirdPersonCamera.cs: Implementa uma camera de terceira pessoa que segue o tanque, na perspectiva de terceira pessoa.
  
 
-**Pasta "Collider":**
+**Pasta "Collider":** Contém um conjunto de arquivos que implementam uma forma de detetar a colisão com um tanque ou com uma bala. É essencial para detetar o dano feito pela bala e as físicas do jogo perante a colisão com objectos.
+* ClsColliderBullet.cs: Esta classe implementa um detector de colisão para uma bala no jogo.
+* ClsColliderTanks.cs: Esta classe implementa um detector de colisão entre dois tanques no jogo.
 
-ClsColliderBullet.cs:
+**Pasta "Components":** Contém um conjunto de arquivos que controlam o comportamente de diferentes elementos do jogo como os projéteis, os tanques, os terrenos e os objetos.
+* ClsBullet.cs: Controla o movimento e a renderização do projétil lançado pelos tanques.
+* ClsObject.cs: Controla a posição e a renderização de objetos do jogo.
+* ClsTank.cs: Controla o movimento, a rotação, o disparo de projéteis e a renderização do tanque.
+* ClsTerrain.cs: Cria a geometria do terreno a partir de um mapa de altura e controla a renderização do mesmo.
 
-Esta classe implementa um detector de colisão para uma bala ou projétil no jogo.
-O construtor recebe o raio do projétil.
-O método Collide calcula se há colisão entre a bala e uma determinada área definida por três pontos no espaço 3D (posA, posB, posC). Ele verifica se o ponto C está dentro do triângulo formado pelos pontos A, B e C. Se estiver dentro e a distância do ponto C ao segmento AB for menor ou igual ao raio da bala, retorna verdadeiro, indicando uma colisão.
-ClsColliderTanks.cs:
-
-Esta classe implementa um detector de colisão entre dois tanques no jogo.
-O construtor recebe o raio dos tanques.
-O método Collide calcula se há colisão entre dois tanques com base em suas posições no espaço 3D. Calcula a distância entre os centros dos dois tanques e verifica se essa distância é menor ou igual a duas vezes o raio dos tanques. Se for, retorna falso, indicando que há uma colisão.
-O propósito geral da pasta "Collider" é conter classes relacionadas à detecção de colisão no jogo. Essas classes são responsáveis por verificar se objetos no jogo, como balas e tanques, colidem entre si. A detecção de colisão é essencial em jogos para garantir interações realistas entre os objetos e para determinar eventos, como danos a jogadores ou destruição de objetos. Portanto, a pasta "Collider" desempenha um papel importante na implementação de funcionalidades de física e interação no jogo MonoGame.
-
-**Pasta "Components":**
-
-**Pasta "Contents":**
+**Pasta "Contents":** Contém arquivos de som e de imagem implementados no jogo.
 
 **Pasta "Effects":** 
 

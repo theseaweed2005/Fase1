@@ -77,26 +77,7 @@ Margarida Coelho Coimbra do Amaral nº29849
 
 **Arquivo "Game1.cs":** Este arquivo inicializa a camera e inicializa e carrega os recursos (textura, modelos 3D e efeitos sonoros). No método Update, são atualizados a camera, os tanques, os efeitos da chuva e a interação com o teclado e, também verifica se o jogador pressionou o botão "Back" do controle ou a tecla "Escape" para sair do jogo. No método Draw, os elementos do jogo, como o terreno, os tanques, as balas e o efeitos da chuva, são renderizados e a camera é usada para determinar o ponto de vista da cena.
 
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using System.Collections.Generic;
-using TrabalhoPratico_Monogame_2ano.Components;
-using TrabalhoPratico_Monogame_2ano.Effects;
-
-namespace TrabalhoPratico_Monogame_2ano
-{
-    public class Game1 : Game
-    {
-        private GraphicsDeviceManager _graphics;
-        private ClsTerrain _terrain;
-        private ClsTank _tank, _tankEnemy;
-        private ClsRain _effectRain;
-        private ClsSoundEffect _soundRain;
-        private ClsObject _pokeball;
-        private List<ClsObject> _pokeballList;
-
+```c#
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -154,13 +135,27 @@ namespace TrabalhoPratico_Monogame_2ano
             base.Draw(gameTime);
         }
     }
-}
 
-
-
+```
 
 **Arquivo "Program.cs":** Este arquivo é o ponto de entrada principal da aplicação MonoGame e ele define o namespace onde a classe Program está localizada, declara uma classe estática chamada Program, que serve como ponto de entrada da aplicação e inicia o ciclo de execução do jogo e controla o loop de atualização e renderização do mesmo.
 
+```c#
+using System;
+
+namespace TrabalhoPratico_Monogame_2ano
+{
+    public static class Program
+    {
+        [STAThread]
+        private static void Main()
+        {
+            using (var game = new Game1())
+                game.Run();
+        }
+    }
+}
+```
 
 # Créditos
 Jogo desenvolvido pelos colegas de trabalho da Maria :D

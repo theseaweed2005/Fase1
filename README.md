@@ -64,14 +64,22 @@ Margarida Coelho Coimbra do Amaral nº29849
 
 **Pasta "Contents":** Contém arquivos de som e de imagem implementados no jogo.
 
-**Pasta "Effects":** Contém um conjunto de arquivos que implementam os varios efeitos do jogo como poeira, chuva e os respetivos efeitos sonoros
+**Pasta "Effects":** Contém um conjunto de arquivos que criam, atualizam e renderizam os efeitos visuais e sonoros do jogo, como a poeira, a chuva e os respetivos efeitos sonoros.
+* ClsDust.cs: Gera partículas de poeira aleatórias ao redor das rodas do tanque, podendo variar com o tempo e gravidade e, são removidas se entrarem em contato com o terreno ou alcançarem uma certa altura.
+* ClsParticleDust: Gera a posição e a velocidade de cada única partícula de poeira.
+* ClsParticleRain: Gera partículas de chuva aleatórias no mapa, que são removidas se atingirem o chão ou saírem dos limites da área.
+* ClsRain: Gera o sistema das partículas de chuva.
+* ClsSoundEffect: Inicializa e reproduz os efeitos sonoros, tendo a opção de definir se deve ser reproduzido em loop ou não.
 
-**Pasta "Managers":** 
+**Pasta "Managers":** Contém o arquivo que resposável for gerir os comandos do teclado no monogame.
+* ClsKeyboardManager: Este arquivo oferece métodos para ajustar o ângulo de rotação do canhão, movimentar os objetos numa cena e limitar o ângulo dentro de valores específicos, tornando possível a interação com o ambiente através do teclado.
 
-**Arquivo "Game1.cs":**
 
-**Arquivo "Program.cs":**
+**Arquivo "Game1.cs":** Este arquivo inicializa a camera e inicializa e carrega os recursos (textura, modelos 3D e efeitos sonoros). No método Update, são atualizados a camera, os tanques, os efeitos da chuva e a interação com o teclado e, também verifica se o jogador pressionou o botão "Back" do controle ou a tecla "Escape" para sair do jogo. No método Draw, os elementos do jogo, como o terreno, os tanques, as balas e o efeitos da chuva, são renderizados e a camera é usada para determinar o ponto de vista da cena.
+
+
+**Arquivo "Program.cs":** Este arquivo é o ponto de entrada principal da aplicação MonoGame e ele define o namespace onde a classe Program está localizada, declara uma classe estática chamada Program, que serve como ponto de entrada da aplicação e inicia o ciclo de execução do jogo e controla o loop de atualização e renderização do mesmo.
 
 
 # Créditos
-Jogo desenvolvido por tal e tal
+Jogo desenvolvido pelos colegas de trabalho da Maria :D

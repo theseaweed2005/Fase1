@@ -35,7 +35,7 @@ Margarida Coelho Coimbra do Amaral nº29849
 
 * T - apontar para cima
 * F - apontar para a esquerda
-* G - apontar para trás
+* G - apontar para baixo
 * J - apontar para a direita
 * Space - disparar
 

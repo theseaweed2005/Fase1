@@ -179,4 +179,5 @@ namespace TrabalhoPratico_Monogame_2ano
 ```
 
 # Créditos
-Jogo desenvolvido pelos colegas de trabalho da Maria :D
+
+**Jogo:** https://github.com/RuiCardoso021/TrabalhoPratico_Monogame_2ano.git

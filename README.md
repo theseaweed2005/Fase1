@@ -59,6 +59,53 @@ Margarida Coelho Coimbra do Amaral nº29849
 **Pasta "Components":** Contém um conjunto de arquivos que controlam o comportamente de diferentes elementos do jogo como os projéteis, os tanques, os terrenos e os objetos.
 * ClsBullet.cs: Controla o movimento e a renderização do projétil lançado pelos tanques.
 * ClsObject.cs: Controla a posição e a renderização de objetos do jogo.
+```c
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System;
+
+namespace TrabalhoPratico_Monogame_2ano.Components
+{
+    internal class ClsObject
+    {
+        private ClsTerrain _terrain;
+        private Model _texture;
+        private Vector3 _position;
+        private Matrix _world;
+
+        public ClsObject(Model texture, ClsTerrain terrain)
+        {
+            Random r = new Random();
+            _terrain = terrain;
+            _texture = texture;
+            _position = new Vector3(r.Next(2, 120), 0, r.Next(2, 120));
+            _position.Y = _terrain.GetY(_position.X, _position.Z);
+
+            Matrix scale = Matrix.CreateScale(0.008f);
+            Matrix translation = Matrix.CreateTranslation(_position);
+
+            _position = _terrain.GetNormal(_position.X, _position.Z);
+            _position.Y = _terrain.GetY(_position.X, _position.Z);
+            _world = scale * translation;
+        }
+
+        public void Draw()
+        {
+            foreach (ModelMesh mesh in _texture.Meshes)
+            {
+                foreach (BasicEffect effect in mesh.Effects)
+                {
+                    effect.World = _world;
+                    effect.View = ClsCamera.Instance.View;
+                    effect.Projection = ClsCamera.Instance.Projection;
+                    effect.EnableDefaultLighting();
+                }
+                mesh.Draw();
+            }
+        }
+    }
+}
+```
 * ClsTank.cs: Controla o movimento, a rotação, o disparo de projéteis e a renderização do tanque.
 * ClsTerrain.cs: Cria a geometria do terreno a partir de um mapa de altura e controla a renderização do mesmo.
 

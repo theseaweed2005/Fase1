@@ -1,5 +1,5 @@
 # Fase1
-O jogo que nós ultilizámos é um jogo em monogame, no qual, numa area deserta, dois tanques batalham, balendo o outro de forma a tentar vencer, sendo que o jogador só pode controlar um dos tanques.
+O jogo que nós utilizámos é um jogo em monogame, no qual, numa área deserta, dois tanques batalham, baleando o outro de forma a tentar vencer, sendo que o jogador só pode controlar um dos tanques.
 
 
 

@@ -157,6 +157,7 @@ namespace TrabalhoPratico_Monogame_2ano.Effects
 
 
 **Arquivo "Game1.cs":** Este arquivo inicializa a camera e inicializa e carrega os recursos (textura, modelos 3D e efeitos sonoros). No método Update, são atualizados a camera, os tanques, os efeitos da chuva e a interação com o teclado e, também verifica se o jogador pressionou o botão "Back" ou a tecla "Escape" para sair do jogo. No método Draw, os elementos do jogo, como o terreno, os tanques, as balas e o efeitos da chuva, são renderizados e a camera é usada para determinar o ponto de vista da cena.
+É possível ver no Game1, uma série de controles para o "Tanque Inimigo" que não foram implementados no jogo, o que nos leva a crer que os desenvolvedores do jogo, originalmente queriam que este fosse para dois jogadores.
 
 ```c#
 using Microsoft.Xna.Framework;

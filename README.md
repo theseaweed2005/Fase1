@@ -17,7 +17,7 @@ Margarida Coelho Coimbra do Amaral nº29849
 
 
 
-# Como jogar
+# Controlos
 
 
 **Controlos de Movimento do Tanque**
@@ -45,7 +45,7 @@ Margarida Coelho Coimbra do Amaral nº29849
 # Estrutura do Código
 
 **Pasta "Camara":** Contém um conjunto de arquivos que implementam diferentes tipos de cameras para serem usadas no jogo MonoGame. 
- * ClsCamera.cs: É uma classe abstrata base que fornece funcionalidades comuns a todas as câmeras, como manipulação de mouse e métodos de atualização.
+ * ClsCamera.cs: É uma classe abstrata base que fornece funcionalidades comuns a todas as cameras, como manipulação do rato e métodos de atualização.
  * ClsCannonCamera.cs: Implementa uma camera que segue o canhão do tanque, mantendo uma perspectiva fixa em relação ao canhão.
  * ClsGhostCamera.cs: Implementa uma camera "fantasma" que pode ser controlada livremente pelo jogador e não está presa a nenhum objeto específico.
  * ClsSurfaceFollowCamera.cs: Implementa uma camera que segue a superfície do terreno, mantendo uma perspectiva fixa em relação ao terreno.
@@ -152,11 +152,11 @@ namespace TrabalhoPratico_Monogame_2ano.Effects
 ```
 
 
-**Pasta "Managers":** Contém o arquivo que resposável for gerir os comandos do teclado no monogame.
+**Pasta "Managers":** Contém o arquivo que é resposável por gerir os comandos do teclado no monogame.
 * ClsKeyboardManager: Este arquivo oferece métodos para ajustar o ângulo de rotação do canhão, movimentar os objetos numa cena e limitar o ângulo dentro de valores específicos, tornando possível a interação com o ambiente através do teclado.
 
 
-**Arquivo "Game1.cs":** Este arquivo inicializa a camera e inicializa e carrega os recursos (textura, modelos 3D e efeitos sonoros). No método Update, são atualizados a camera, os tanques, os efeitos da chuva e a interação com o teclado e, também verifica se o jogador pressionou o botão "Back" do controle ou a tecla "Escape" para sair do jogo. No método Draw, os elementos do jogo, como o terreno, os tanques, as balas e o efeitos da chuva, são renderizados e a camera é usada para determinar o ponto de vista da cena.
+**Arquivo "Game1.cs":** Este arquivo inicializa a camera e inicializa e carrega os recursos (textura, modelos 3D e efeitos sonoros). No método Update, são atualizados a camera, os tanques, os efeitos da chuva e a interação com o teclado e, também verifica se o jogador pressionou o botão "Back" ou a tecla "Escape" para sair do jogo. No método Draw, os elementos do jogo, como o terreno, os tanques, as balas e o efeitos da chuva, são renderizados e a camera é usada para determinar o ponto de vista da cena.
 
 ```c#
 using Microsoft.Xna.Framework;

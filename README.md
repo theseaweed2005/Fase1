@@ -70,6 +70,40 @@ Margarida Coelho Coimbra do Amaral nº29849
 * ClsParticleRain: Gera partículas de chuva aleatórias no mapa, que são removidas se atingirem o chão ou saírem dos limites da área.
 * ClsRain: Gera o sistema das partículas de chuva.
 * ClsSoundEffect: Inicializa e reproduz os efeitos sonoros, tendo a opção de definir se deve ser reproduzido em loop ou não.
+```c#
+using Microsoft.Xna.Framework.Audio;
+
+namespace TrabalhoPratico_Monogame_2ano.Effects
+{
+    internal class ClsSoundEffect
+    {
+        private SoundEffectInstance _soundEffectInstance;
+        private bool _loop;
+
+        public ClsSoundEffect(SoundEffect sound, float volume)
+        {
+            _soundEffectInstance = sound.CreateInstance();
+            _soundEffectInstance.Volume = volume;
+            _loop = true;
+        }
+
+        public void Play()
+        {
+            if (_loop)
+            {
+                _soundEffectInstance.Play();
+                _loop = false;
+            }
+        }
+
+        public void PlayWithLoop()
+        {
+            _soundEffectInstance.Play();
+        }
+    }
+}
+```
+
 
 **Pasta "Managers":** Contém o arquivo que resposável for gerir os comandos do teclado no monogame.
 * ClsKeyboardManager: Este arquivo oferece métodos para ajustar o ângulo de rotação do canhão, movimentar os objetos numa cena e limitar o ângulo dentro de valores específicos, tornando possível a interação com o ambiente através do teclado.

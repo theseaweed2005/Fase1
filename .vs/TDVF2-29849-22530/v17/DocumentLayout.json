@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\stuff\\monsters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\stuff\\monsters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\stuff\\attack\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\stuff\\attack\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\manager\\xpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\manager\\xpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\stuff\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\stuff\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\manager\\projectilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\manager\\projectilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\manager\\monstermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\manager\\monstermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\stuff\\xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\stuff\\xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\stuff\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\stuff\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\stuff\\base\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\stuff\\base\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\stuff\\base\\movingsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\stuff\\base\\movingsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\manager\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\manager\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\stuff\\attack\\projectiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\stuff\\attack\\projectiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\stuff\\attack\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\stuff\\attack\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|c:\\users\\marga\\source\\repos\\tdvf2-29849-22530\\tdvf2-29849-22530\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682B1DC2-85EE-460B-8078-494FA9DE743F}|TDVF2-29849-22530\\TDVF2-29849-22530.csproj|solutionrelative:tdvf2-29849-22530\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XPManager.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\XPManager.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Manager\\XPManager.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\XPManager.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Manager\\XPManager.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAUwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:35:14.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\GameManager.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Manager\\GameManager.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\GameManager.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Manager\\GameManager.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:34:31.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\InputManager.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Manager\\InputManager.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\InputManager.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Manager\\InputManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:33:54.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectileManager.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\ProjectileManager.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Manager\\ProjectileManager.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\ProjectileManager.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Manager\\ProjectileManager.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAUwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:33:19.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\UIManager.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Manager\\UIManager.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\UIManager.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Manager\\UIManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA0wB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:32:20.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MonsterManager.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\MonsterManager.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Manager\\MonsterManager.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Manager\\MonsterManager.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Manager\\MonsterManager.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAUwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:30:23.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sprite.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Base\\Sprite.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Stuff\\Base\\Sprite.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Base\\Sprite.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Stuff\\Base\\Sprite.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA0wBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:29:12.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MovingSprite.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Base\\MovingSprite.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Stuff\\Base\\MovingSprite.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Base\\MovingSprite.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Stuff\\Base\\MovingSprite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:28:24.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProjectileData.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Attack\\ProjectileData.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Stuff\\Attack\\ProjectileData.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Attack\\ProjectileData.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Stuff\\Attack\\ProjectileData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:27:28.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Attack\\Projectile.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Stuff\\Attack\\Projectile.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Attack\\Projectile.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Stuff\\Attack\\Projectile.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:26:52.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Attack\\Weapon.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Stuff\\Attack\\Weapon.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Attack\\Weapon.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Stuff\\Attack\\Weapon.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:25:46.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Background.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Background.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Stuff\\Background.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Background.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Stuff\\Background.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwCMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:24:12.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "XP.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\XP.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Stuff\\XP.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\XP.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Stuff\\XP.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:22:55.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Player.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Stuff\\Player.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Player.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Stuff\\Player.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAUwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:21:56.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Monsters.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Monsters.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Stuff\\Monsters.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Stuff\\Monsters.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Stuff\\Monsters.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:19:40.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Program.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Program.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Program.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:17:03.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Globals.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Globals.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Globals.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Globals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:16:15.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Game1.cs",
+              "RelativeDocumentMoniker": "TDVF2-29849-22530\\Game1.cs",
+              "ToolTip": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\Game1.cs",
+              "RelativeToolTip": "TDVF2-29849-22530\\Game1.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAUwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:15:16.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

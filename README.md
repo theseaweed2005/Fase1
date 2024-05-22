@@ -60,7 +60,7 @@ Margarida Coelho Coimbra do Amaral nº29849
 
 
 **Pasta "Manager", a qual contém:**
-**Classe ""GameManager.cs""**: Gerencia a lógica do jogo. Contém as propriedades e métodos:
+* **Classe ""GameManager.cs""**: Gerencia a lógica do jogo. Contém as propriedades e métodos:
 Propriedades: 
 _player: Representa o personagem "player".
 _monsters: Representa os monstros no jogo.
@@ -71,9 +71,9 @@ Draw: Desenha os elementos do jogo no ecrã.
 
 **Classe ""InputManager.cs""**: Gerencia o input do jogador no jogo. Contém as propriedades e métodos:
 Propriedades: 
-* Direction: Recebe a direção do movimento baseado no input do utilizador.
-* MousePosition: Recebe a posição atual do rato. 
-* MouseClicked, MouseRightClicked, MouseLeftDown, SpacePressed: Indica o input do rato e teclado.
+* * Direction: Recebe a direção do movimento baseado no input do utilizador.
+* * MousePosition: Recebe a posição atual do rato.
+* * MouseClicked, MouseRightClicked, MouseLeftDown, SpacePressed: Indica o input do rato e teclado.
 Método:
 *Update: Atualiza o estado do input.
 

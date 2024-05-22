@@ -40,7 +40,7 @@ Margarida Coelho Coimbra do Amaral nº29849
 # Estrutura do Código
 
 **Classe "Game1.cs":** Esta classe é a classe principal do jogo. Contém os seguintes métodos:
-* Initialize: Initializa as definições do jogo como o tamanho da janela do jogo;
+* Initialize: Inicializa as definições do jogo como o tamanho da janela do jogo;
 * LoadContent: Carrega conteúdo como textura e sprites;
 * Update: Atualiza a lógica do jogo;
 * Draw: Renderiza os elementos do jogo no ecrã.
@@ -53,7 +53,7 @@ Margarida Coelho Coimbra do Amaral nº29849
 * Bounds: Recebe ou define os limites do mundo do jogo. 
 
 
-**Classe "Program.cs":** Contém o ponto de entrada para o jogo. Apenas contém o método "Main" que é o ponto de entrada do Monogame. M
+**Classe "Program.cs":** Contém o ponto de entrada para o jogo. Apenas contém o método "Main" que é o ponto de entrada do Monogame.
 
 
 

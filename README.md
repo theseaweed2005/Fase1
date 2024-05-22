@@ -62,11 +62,11 @@ Margarida Coelho Coimbra do Amaral nº29849
 **Pasta "Manager", a qual contém:**
 * **Classe ""GameManager.cs""**: Gerencia a lógica do jogo. Contém as propriedades e métodos:
 Propriedades: 
-_player: Representa o personagem "player".
-_monsters: Representa os monstros no jogo.
+  * _player: Representa o personagem "player".
+  * _monsters: Representa os monstros no jogo.
 Métodos:
-Update: Atualiza o lógica do jogo.
-Draw: Desenha os elementos do jogo no ecrã.
+  * Update: Atualiza o lógica do jogo.
+  * Draw: Desenha os elementos do jogo no ecrã.
 
 
 **Classe ""InputManager.cs""**: Gerencia o input do jogador no jogo. Contém as propriedades e métodos:

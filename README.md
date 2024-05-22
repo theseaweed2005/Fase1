@@ -100,7 +100,7 @@ Métodos:
   
 * **Classe ""UIManager.cs""**: Gerencia elementos da User Interface no jogo. Contém os métodos:
   * Init: Inicializa o gerenciador da UI.
-  * Draw: Desenha os elementos gerais da User Interface.
+  * Draw: Renderiza os elementos gerais da User Interface.
   * DrawPlayerInfo: Renderiza elementos da UI relacionados ao player.
 
 

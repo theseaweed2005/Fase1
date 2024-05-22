@@ -87,7 +87,7 @@ Método:
   * Draw: Renderiza os monstros no ecrã.
 
 
-* **Classe ""ProjectileManager.cs""**: Gerencia os monstros no jogo. Contém as propriedades e métodos:
+* **Classe ""ProjectileManager.cs""**: Gerencia os projéteis no jogo. Contém as propriedades e métodos:
 Propriedade:
   * List Projectiles: Lista de projeteis ativos.
 Métodos:

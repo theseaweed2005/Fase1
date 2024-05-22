@@ -16,3 +16,39 @@ Margarida Coelho Coimbra do Amaral nº29849
 # Controlos
 
 # Estrutura do Código
+
+**Classe "Game1.cs":** Esta classe é a classe principal do jogo. Contém os seguintes métodos:
+
+**Classe "Globals.cs":** Esta classes contém variáveis globais e métodos usados ao longo do jogo.
+
+**Classe "Program.cs":** Contém o ponto de entrada para o jogo.
+
+**Classe "Monster.cs"**: Representa um monstro no jogo.
+
+**Classe "Player.cs"**: Representa o personagem do Player no jogo.
+Player Class
+
+**Classe "XP.cs"**: Represnta os pontos de experiência no jogo.
+
+**Classe ""Background.cs""**: Representa o plano de fundo do jogo
+
+**Classe ""Weapon.cs""**: Representa a arma do player no jogo.
+
+**Classe ""Projectile.cs""**: Representa o projetile disparado pela arma do player.
+Projectile Class
+
+**Classe ""ProjectileData.cs""**: Contém dados para a crição de projeteis.
+
+**Classe ""MovingSprite.cs""**: Representa um sprite com capacidade de movimento.
+
+**Classe ""Sprite.cs""**: Representa um sprite estático.
+
+**Classe ""MonsterManager.cs""**: Gerencia os monstros no jogo.
+
+**Classe ""UIManager.cs""**: Gerencia elementos da User Interface no jogo.
+
+**Classe ""InputManager.cs""**: Gerencia o input do jogador no jogo.
+
+**Classe ""GameManager.cs""**: Gerencia a lógica do jogo.
+
+**Classe ""XPManager.cs""**: Gerencia os pontos de experiência no jogo.

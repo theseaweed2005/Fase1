@@ -87,7 +87,41 @@ Método:
 * Draw: Desenha os monstros no ecrã.
 
 
-**Classe "Monster.cs"**: Representa um monstro no jogo. Contém as propriedades e métodos:
+**Classe ""ProjectileManager.cs""**: Gerencia os monstros no jogo. Contém as propriedades e métodos:
+Propriedade:
+* List Projectiles: Lista de projeteis ativos.
+Métodos:
+* Init: Inicializa o gerente com a textura do projetil.
+* Reset: Reseta a list de projeteis.
+* AddProjectile: Adiciona um novo projetil à lista.
+* Update: Atualiza os projeteis e lida com as colisões.
+* Draw: Desenha todos os projeteis.
+
+  
+**Classe ""UIManager.cs""**: Gerencia elementos da User Interface no jogo. Contém os métodos:
+* Init: Inicializa o gerenciador da UI.
+* Draw: Desenha os elementos gerais da User Interface.
+* DrawPlayerInfo: Desenha elementos da UI relacionados ao player.
+
+
+**Classe ""XPManager.cs""**: Gerencia os pontos de experiência no jogo. Contém os métodos:
+Init: Inicializa o gerenciador do XP.
+Reset: Reseta o estado do gerenciador. 
+AddXP: Adiciona novo XP numa posição específica.
+Update: Atualiza as posições e tempo de vida do XP.
+Draw: esenha o Xp na tela. 
+
+
+
+
+
+
+
+**Pasta "Stuff", a qual contém:**
+**Classe ""Background.cs""**: Representa o plano de fundo do jogo. Contém o método "Draw" que 'desenha' o plano de fundo na tela.
+
+
+**Classe "Monsters.cs"**: Representa um monstro no jogo. Contém as propriedades e métodos:
 Propriedades:
 * HP: Recebe ou define os "Pontos de Saúde" do monstro.
 * Speed: Recebe ou define a velocidade do monstro.
@@ -115,16 +149,7 @@ Métodos:
 * Collect: Coleta os "Pontos de Experiência".
 
 
-**Classe ""Background.cs""**: Representa o plano de fundo do jogo. Contém o método "Draw" que 'desenha' o plano de fundo na tela.
-
-
-**Classe ""Weapon.cs""**: Representa a arma do player no jogo. Contém os métodos:
-* Reload: Recarrega a arma.
-* CreateProjectiles: Cria projéteis quando a arma é disparada. 
-* Fire: Dispara a arma.
-* Update: Atualiza o tempo de espera da arma e o estado de recarregar a arma.
-
-
+**Pasta "Attack", a qual contém:**
 **Classe ""Projectile.cs""**: Representa o projetile disparado pela arma do player. Contém os métodos:
 * Update: Atualiza a posição e tempo de vida dos projeteis. 
 * IsOutOfBounds: Verifica se o projétil está fora dos limites do jogo.
@@ -135,6 +160,14 @@ Métodos:
 **Classe ""ProjectileData.cs""**: Contém dados para a crição de projeteis.
 
 
+**Classe ""Weapon.cs""**: Representa a arma do player no jogo. Contém os métodos:
+* Reload: Recarrega a arma.
+* CreateProjectiles: Cria projéteis quando a arma é disparada. 
+* Fire: Dispara a arma.
+* Update: Atualiza o tempo de espera da arma e o estado de recarregar a arma.
+
+
+**Pasta "Base", a qual contém:**
 **Classe ""MovingSprite.cs""**: Representa um sprite com capacidade de movimento. Contém a propriedade "Speed" que recebe ou define e velocidade do sprite.
 
 
@@ -149,20 +182,3 @@ Métodos:
 
 
 
-
-
-**Classe ""UIManager.cs""**: Gerencia elementos da User Interface no jogo. Contém os métodos:
-* Init: Inicializa o gerenciador da UI.
-* Draw: Desenha os elementos gerais da User Interface.
-* DrawPlayerInfo: Desenha elementos da UI relacionados ao player.
-
-
-
-
-
-**Classe ""XPManager.cs""**: Gerencia os pontos de experiência no jogo. Contém os métodos:
-Init: Inicializa o gerenciador do XP.
-Reset: Reseta o estado do gerenciador. 
-AddXP: Adiciona novo XP numa posição específica.
-Update: Atualiza as posições e tempo de vida do XP.
-Draw: esenha o Xp na tela. 

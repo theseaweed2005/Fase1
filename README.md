@@ -60,7 +60,7 @@ Margarida Coelho Coimbra do Amaral nº29849
 
 
 **Pasta "Manager", a qual contém:**
-* **Classe ""GameManager.cs""**: Gerencia a lógica do jogo. Contém as propriedades e métodos:
+* **Classe ""GameManager.cs""**: Gere a lógica do jogo. Contém as propriedades e métodos:
 Propriedades: 
   * _player: Representa o personagem "player".
   * _monsters: Representa os monstros no jogo.
@@ -69,7 +69,7 @@ Métodos:
   * Draw: Renderiza os elementos do jogo no ecrã.
 
 
-* **Classe ""InputManager.cs""**: Gerencia o input do jogador no jogo. Contém as propriedades e métodos:
+* **Classe ""InputManager.cs""**: Gere o input do jogador no jogo. Contém as propriedades e métodos:
 Propriedades: 
     * Direction: Recebe a direção do movimento baseado no input do utilizador.
     * MousePosition: Recebe a posição atual do rato.
@@ -78,7 +78,7 @@ Método:
     * Update: Atualiza o estado do input.
 
 
-* **Classe ""MonsterManager.cs""**: Gerencia os monstros no jogo. Contém os métodos:
+* **Classe ""MonsterManager.cs""**: Gere os monstros no jogo. Contém os métodos:
   * Init: Inicializa o gerenciador dos monstros.
   * Reset: Reseta o estado do gerenciador.
   * RandomPosition: Gera uma posição aleatóra para um monstro.
@@ -87,7 +87,7 @@ Método:
   * Draw: Renderiza os monstros no ecrã.
 
 
-* **Classe ""ProjectileManager.cs""**: Gerencia os projéteis no jogo. Contém as propriedades e métodos:
+* **Classe ""ProjectileManager.cs""**: Gere os projéteis no jogo. Contém as propriedades e métodos:
 Propriedade:
   * List Projectiles: Lista de projeteis ativos.
 Métodos:
@@ -98,13 +98,13 @@ Métodos:
   * Draw: Renderiza todos os projeteis.
 
   
-* **Classe ""UIManager.cs""**: Gerencia elementos da User Interface no jogo. Contém os métodos:
+* **Classe ""UIManager.cs""**: Gere elementos da User Interface no jogo. Contém os métodos:
   * Init: Inicializa o gerenciador da UI.
   * Draw: Renderiza os elementos gerais da User Interface.
   * DrawPlayerInfo: Renderiza elementos da UI relacionados ao player.
 
 
-* **Classe ""XPManager.cs""**: Gerencia os pontos de experiência no jogo. Contém os métodos:
+* **Classe ""XPManager.cs""**: Gere os pontos de experiência no jogo. Contém os métodos:
   * Init: Inicializa o gerenciador do XP.
   * Reset: Reseta o estado do gerenciador. 
   * AddXP: Adiciona novo XP numa posição específica.

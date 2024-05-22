@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Fase1
 =======
 # Fase1
@@ -266,4 +265,3 @@ namespace TrabalhoPratico_Monogame_2ano
 # Créditos
 
 **Jogo:** https://github.com/RuiCardoso021/TrabalhoPratico_Monogame_2ano.git
->>>>>>> master

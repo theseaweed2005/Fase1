@@ -15,6 +15,28 @@ Margarida Coelho Coimbra do Amaral nº29849
 
 # Controlos
 
+
+**Controlos do teclado**:
+
+* W: Mover para cima
+* S: Mover para baixo
+* A: Mover para a esquerda
+* D: Mover para a direita
+* Espaço: trocar de armas (não implementado)
+
+**Controlos do Rato**:
+* Moviementos do Rato: Mira a arma do jogador
+* Botão Esquerdo do Rato: Disparar a arma;
+* Botão Direito do Rato: Recarregar a arma.
+
+**Outros**:
+* Escape: Sair do jogo
+
+
+
+
+
+
 # Estrutura do Código
 
 **Classe "Game1.cs":** Esta classe é a classe principal do jogo. Contém os seguintes métodos:

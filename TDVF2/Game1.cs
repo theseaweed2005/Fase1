@@ -1,6 +1,8 @@
-﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using TDVF2.Manager;
+
 
 namespace TDVF2
 {
@@ -19,15 +21,15 @@ namespace TDVF2
 
         protected override void Initialize()
         {
-            Globals.WindowSize = new Point(1024, 768);
-            _graphics.PreferredBackBufferWidth = Globals.WindowSize.X;
-            _graphics.PreferredBackBufferHeight = Globals.WindowSize.Y;
+            Globals.Bounds = new Point(1536, 1024);
+            _graphics.PreferredBackBufferWidth = Globals.Bounds.X;
+            _graphics.PreferredBackBufferHeight = Globals.Bounds.Y;
             _graphics.ApplyChanges();
 
             Globals.Content = Content;
-
-            _gameManager = new GameManager();
-            _gameManager.Init();
+            _spriteBatch = new SpriteBatch(GraphicsDevice);
+            Globals.SpriteBatch = _spriteBatch;
+            _gameManager = new GameManager(_spriteBatch);
 
             base.Initialize();
         }
@@ -44,17 +46,18 @@ namespace TDVF2
                 Exit();
 
             Globals.Update(gameTime);
-            _gameManager.Update();
+            InputManager.Update();
+            _gameManager.Update(gameTime);
 
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.DarkGray);
 
             _spriteBatch.Begin();
-            _gameManager.Draw();
+            _gameManager.Draw(gameTime);
             _spriteBatch.End();
 
             base.Draw(gameTime);

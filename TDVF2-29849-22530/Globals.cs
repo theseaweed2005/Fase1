@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Project002;
+namespace TDVF2_29849_22530;
 
 public static class Globals
 {

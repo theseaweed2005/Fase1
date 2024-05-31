@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wBU/3EaDgMpmmkU1qVjvCKglF5m+GgFBGJdaNyi/wEFTFqxqJonVlwZHddXlNvbatEAQP1tlkum4hj+PqTQAlQ==",
+  "dgSpecHash": "h37vDG63L8PDr1CPa0d2zWnnk19b29hIRHBMMCJFw75Fx8VZxkYr10UXHEMsDDMNKywvCoxq4/kTwyGQ+DVa4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marga\\source\\repos\\TDVF2-29849-22530\\TDVF2-29849-22530\\TDVF2-29849-22530.csproj",
+  "projectFilePath": "C:\\Users\\marga\\Desktop\\TDV\\TDVF2-29849-22530\\TDVF2-29849-22530\\TDVF2-29849-22530.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marga\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
     "C:\\Users\\marga\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"

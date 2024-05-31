@@ -1,6 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Project002;
 using System.Collections.Generic;
 using System;
 using TDVF2_29849_22530.Stuff;
@@ -18,7 +17,7 @@ namespace TDVF2_29849_22530.Manager
 
         public static void Init()
         {
-            _texture = Globals.Content.Load<Texture2D>("monster");
+            _texture = Globals.Content.Load<Texture2D>("1");
             _spawnCooldown = 0.33f;
             _spawnTime = _spawnCooldown;
             _random = new Random();

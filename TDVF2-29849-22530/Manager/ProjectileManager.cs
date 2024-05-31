@@ -1,6 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Project002;
+﻿using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;
 using TDVF2_29849_22530.Stuff;
 using TDVF2_29849_22530.Stuff.Attack;

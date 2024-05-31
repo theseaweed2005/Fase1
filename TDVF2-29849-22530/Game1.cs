@@ -1,12 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using Project002;
-using TDVF2_29849_22530.Manager;
-using TDVF2_29849_22530.Stuff;
 
-namespace Project002
-{
+
+namespace TDVF2_29849_22530;
     public class Game1 : Game
     {
         private readonly GraphicsDeviceManager _graphics;

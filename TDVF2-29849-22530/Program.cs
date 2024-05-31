@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Project002;
+namespace TDVF2_29849_22530;
 
 public static class Program
 {

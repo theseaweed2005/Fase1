@@ -1,6 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Project002;
 using System.Collections.Generic;
 using TDVF2_29849_22530.Manager;
 using TDVF2_29849_22530.Stuff;
@@ -14,9 +13,9 @@ namespace TDVF2_29849_22530
 
         public GameManager()
         {
-            _player = new Player(Globals.Content.Load<Texture2D>("Player"));
+            _player = new Player(Globals.Content.Load<Texture2D>("posição3"));
             _monsters = new List<Monsters>();
-            _monsters.Add(new Monsters(Globals.Content.Load<Texture2D>("Monster"), new Vector2(100, 100))); // Example initialization
+            _monsters.Add(new Monsters(Globals.Content.Load<Texture2D>("1"), new Vector2(100, 100))); 
         }
 
         public void Update()
